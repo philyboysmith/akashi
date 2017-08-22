@@ -411,7 +411,7 @@ html {
   background-color: white; }
 
 .p-landing {
-  background-image: url(/assets/img/linenc.jpg);
+  background-image: url(../img/linenc.jpg);
   background-color: transparent !important;
   margin-bottom: 6rem;
   background-size: cover;
@@ -430,7 +430,7 @@ html {
   min-height: 68.6458333vw;
   border-top: 6rem white solid;
   box-sizing: content-box;
-  background-image: url(/assets/img/p-range.jpg);
+  background-image: url(../img/p-range.jpg);
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -439,10 +439,10 @@ html {
   margin-top: 100vh; }
 
 .p-artisan {
-  background-image: url(/assets/img/p-artisan.jpg); }
+  background-image: url(../img/p-artisan.jpg); }
 
 .p-rice-is-key {
-  background-image: url(/assets/img/p-rice-is-key.jpg); }
+  background-image: url(../img/p-rice-is-key.jpg); }
   .p-rice-is-key .c-section__overlay {
     left: 58%;
     top: 50%;
@@ -450,24 +450,24 @@ html {
     right: 0; }
 
 .p-rice {
-  background-image: url(/assets/img/p-rice.jpg); }
+  background-image: url(../img/p-rice.jpg); }
   .p-rice .c-section__overlay {
     max-width: 21em;
     bottom: 10%; }
 
 .p-tai {
-  background-image: url(/assets/img/p-tai.jpg); }
+  background-image: url(../img/p-tai.jpg); }
   .p-tai .c-section__overlay {
     right: 10%;
     top: 50%;
     transform: translateY(-50%); }
 
 .p-tank {
-  background-image: url(/assets/img/p-tank.jpg);
+  background-image: url(../img/p-tank.jpg);
   border-bottom: 6rem solid white; }
 
 .p-toji {
-  background-image: url(/assets/img/p-toji.jpg); }
+  background-image: url(../img/p-toji.jpg); }
   .p-toji .c-section__overlay {
     max-width: 22em; }
 
@@ -515,7 +515,7 @@ html {
 
 .c-logo {
   margin-top: 1em;
-  background-image: url(/assets/img/logoc.png);
+  background-image: url(../img/logoc.png);
   height: 0;
   padding-top: 184.4%;
   background-size: cover;
