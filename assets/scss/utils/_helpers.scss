@@ -1,0 +1,150 @@
+//---------------------------------------------//
+// Helper classes - Outline
+// Docs - http://outlinecss.co.uk/get-started.html#helpers
+//---------------------------------------------//
+
+// clearfix
+.clearfix,
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// align
+.align-left,
+%align-left {
+  text-align: left;
+}
+
+.align-center,
+%align-center {
+  text-align: center;
+}
+
+.align-right,
+%align-right {
+  text-align: right;
+}
+
+.justify,
+%justify {
+  text-align: justify;
+}
+
+// floats
+.float-left,
+%float-left {
+  float: left;
+}
+
+.float-center,
+%float-center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-right,
+%float-right {
+  float: right;
+}
+
+// spacing
+.no-space,
+%no-space {
+  margin: 0;
+  padding: 0;
+}
+
+.space,
+%space {
+  margin: $spacing;
+}
+
+.space-top,
+%space-top {
+  margin-top: $spacing;
+}
+
+.space-right,
+%space-right {
+  margin-right: $spacing;
+}
+
+.space-btm,
+%space-btm {
+  margin-bottom: $spacing;
+}
+
+.space-left,
+%space-left {
+  margin-left: $spacing;
+}
+
+// background colours
+.bg-primary,
+%bg-primary {
+  background-color: $color-primary;
+}
+
+// text colours
+.text-primary,
+%text-primary {
+  color: $color-primary;
+}
+
+
+// text colours
+.text-white,
+%text-white {
+  color: $color-white;
+}
+
+// center image
+.img-center,
+%img-center {
+  display: block;
+  margin: 0 auto $spacing auto;
+}
+
+
+// make text uppercase
+.is-uppercase,
+%is-uppercase {
+  text-transform: uppercase;
+}
+
+// hide from browsers & screenreaders
+.hide,
+%hide {
+  display: none;
+  visibility: hidden;
+}
+
+// hide visually, but available for screenreaders
+.visuallyhidden,
+%visuallyhidden {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+// extends the .visuallyhidden class to allow the element to
+// be focusable when navigated to via the keyboard
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  position: static;
+  margin: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+}

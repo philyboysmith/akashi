@@ -1,0 +1,121 @@
+/**
+ * Menu Toggle
+ */
+
+.menu__toggle {
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 32px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    transition: color .35s;
+    z-index: 11;
+}
+
+.menu__toggle.animate {
+	color: white;
+}
+
+.menu__toggle:before {
+    background-color: #000;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    transform-origin: center;
+    transition: transform .35s,background-color .35s,.35s;
+    width: 20px;
+    will-change: transform;
+}
+
+.menu__toggle.animate:before {
+	background-color: #fff;
+    margin-top: -2px;
+    top: 50%;
+    transform: rotate(45deg);
+}
+.menu__toggle:after {
+    background-color: #000;
+    bottom: 8px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transform-origin: center;
+    width: 20px;
+    transition: transform .35s,background .35s;
+    will-change: transform;
+}
+
+.menu__toggle.animate:after {
+    background-color: #fff;
+    margin-top: -2px;
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+
+/**
+ * The Menu
+ */
+
+ .menu {
+    background-color: #BF002E;
+    box-sizing: border-box;
+    color: #fff;
+    height: 100vh;
+    right: 0;
+    overflow: hidden;
+    padding: 120px 40px 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translate3d(100%,0, 0);
+    transition: transform .5s ease-out,opacity .5s,visibility .5s;
+    visibility: hidden;
+    will-change: transform,opacity,visibility;
+    z-index: 10;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu.animate {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.menu__footer {
+    font-size: 12px;
+    p {
+        margin: 0;
+    }
+}
+
+
+/**
+ * Navigation
+ */
+
+.main-navigation {
+    line-height: 2em;
+    a {
+        color: white;
+    }
+    a:hover {
+        border-bottom: 1px solid white;
+    }
+    font-family: $font-secondary;
+    li li {
+        font-family: $font-primary; 
+        padding-left: 1.5em;
+        font-size: 0.8em; 
+    }
+}

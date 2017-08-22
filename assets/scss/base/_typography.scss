@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'gotham-medium';
+  src: url('../fonts/gotham-medium/gotham-medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/gotham-medium/gotham-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/gotham-medium/gotham-medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/gotham-medium/gotham-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/gotham-medium/gotham-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'gotham-light';
+  src: url('../fonts/gotham-light/gotham-light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/gotham-light/gotham-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/gotham-light/gotham-light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/gotham-light/gotham-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/gotham-light/gotham-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+//---------------------------------------------//
+// Typography - Outline
+// Set headings, font, link , hr, sub & sup,
+// abbreviation, highlighting, figure
+// & blockquote styles
+// Docs - http://outlinecss.co.uk/get-started.html#typography
+//---------------------------------------------//
+
+html {
+  font-size: $html-font-base;
+}
+
+body {
+  font-family: $font-primary;
+  font-size: $font-base;
+  line-height: 1.5;
+  color: $color-grey-dark;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+%h1, %h2, %h3, %h4, %h5, %h6 {
+  font-family: $font-secondary;
+  font-weight: normal;
+}
+
+
+
+
+p {
+  margin-bottom: $spacing;
+}
+
+.font-primary,
+%font-primary {
+  font-family: $font-primary;
+}
+
+.font-secondary,
+%font-secondary {
+  font-family: $font-secondary;
+}
+
+// dealing with long words in CSS
+// https://justmarkup.com/log/2015/07/31/dealing-with-long-words-in-css/
+.hyphenate,
+%hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em,
+cite,
+dfn,
+var {
+  font-style: italic;
+}
+
+// link styles
+a {
+  text-decoration: none;
+  word-wrap: break-word;
+  color: $color-primary;
+}
+
+a:hover {
+  color: shade($color-primary, 25%);
+}
+
+a img {
+  border: none;
+  background: none;
+}
+
+// prevents border/background on linked image hover
+a:hover img {
+  border: none;
+  background: none;
+  filter: alpha(opacity=90);
+}
+
+// lines
+hr {
+  margin: $spacing / 2 auto $spacing;
+  border: 0;
+  border-top: 2px solid $color-primary;
+  border-bottom: 0 solid #fff;
+}
+
+// subscript & superscript
+sub,
+sup {
+  position: relative;
+  margin-left: .25rem;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5rem;
+}
+
+sub {
+  bottom: -.25rem;
+}
+
+// abbreviation or acronym
+abbr[title] {
+  border-bottom: .0625rem dotted $color-grey-dark;
+}
+
+// mark element (highlight)
+mark {
+  background-color: yellow;
+  color: $color-grey-dark;
+  padding: .25rem;
+}
+
+// blockquote
+blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: $font-secondary;
+
+  p:last-of-type {
+    margin-bottom: .25rem;
+  }
+
+  cite {
+    font-style: italic;
+  }
+}
+
+// figure and caption
+figure {
+  margin-bottom: $spacing;
+}
+
+figcaption {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-family: $font-secondary;
+  font-size: .875rem;
+  text-align: center;
+  border-bottom: .0625rem solid $color-grey-dark;
+}
+
+// highlighting colors
+::selection {
+  color: #fff;
+  background: $color-primary;
+}
