@@ -3,23 +3,34 @@ html {
 	background-size: cover;
 }
 
+.responsive-image img {
+	display: block;
+}
+
 .main {
 	width: 100%;
 	overflow: hidden;
 }
+
+.responsive-image {
+	position: relative;
+}
+
 .section {
 	background-size: cover;
-	padding: 3em;
+	padding: 1em 1em;
 	outline: 0;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	position: relative;
-	h2 {
-		font-size: 18px;
+    @include respond-min($tablet) {
+		h2 {
+			font-size: 1.125rem;
+		}
 	}
 	h3 {
-		font-size: 14px;
+		font-size: .875rem;
 	}
 	hr {
 		margin: $spacing / 2 auto; 
@@ -33,7 +44,7 @@ html {
 	font-family: $font-secondary;
 	text-transform: uppercase;
 	padding: 0.75em  3em;
-	font-size: 14px;
+	font-size: .875rem;
 	transition: opacity 0.2s;
     letter-spacing: 0.2em;
 	&:hover {
@@ -79,7 +90,10 @@ html {
     align-items: center;
     justify-content: space-between;
     margin-top: 100vh;
-	padding-top: 58px!important;
+    padding-top: 1rem;
+    @media only screen  and (orientation : landscape){
+		padding-top: 58px!important;
+	}
 
 }
 
@@ -132,11 +146,6 @@ html {
 }
 
 .p-tank {
-	background-image: url(../img/5_mobile.jpg);
-	@media only screen  and (orientation : landscape){
-		background-image: url(../img/5.jpg);		
-	}
-	@extend %page;
 	border-bottom: $spacing * 4 solid white;
 }
 
@@ -191,45 +200,13 @@ html {
 
 
 .c-section__text {
-	font-size: 32px;
 	font-family: $font-secondary;
 	border-bottom: 2px solid $color-primary;
 	margin-bottom: 32px;
 	padding-bottom: 8px;
 }
 
-.c-logo--wrapper {
-	max-width: 35vh;
-	max-height: 100%;
-	flex: 1;
-	width: 80%;
-	height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    padding: 4em 0;
-    .intro {
-    	font-size: 14px;
-	    position: absolute;
-	    top: 2em;
-	    left: 0;
-		right: 0;
-		text-align: center;
-    }
-}
-.c-logo {
-	margin-top: 1em;
-	background-image: url(../img/logoc.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 0;
-	padding-top: 184.4%;
-	background-size: cover;
-	font-size: 0;
-	text-indent:9999px; 
-	transform: translateX(-9%);
-}
+
 
 
 
@@ -260,10 +237,11 @@ html {
 .social-links__item {
 	display: inline-block;
 	a {
-		width: 1.5em;
-		height: 1.5em;
+		width: 22px;
+		height: 22px;
 		text-indent: -9999px;
 		display: inline-block;
+		background-size: cover;
 	}
 }
 
@@ -279,5 +257,35 @@ html {
 	.c-section__overlay {
 		position: relative!important;
 	    transform:translateY(0%)!important;
+	}
+}
+
+.mobile-carousel {
+	position: absolute; 
+	z-index: 2;
+	background: white;
+	padding-top: 58px;
+	opacity: 0;
+	visibility: hidden;
+    transition: opacity 0.5s;
+    display: none;
+}
+
+
+
+.mobile-carousel__text {
+	padding: 1.5rem 1rem;
+	h1 {
+		font-size: 2em;
+		 display: inline-block;
+	    border-bottom: 2px solid $color-primary;
+	    margin-bottom: 1.25em;
+	    padding-bottom: 0.75em;
+	    line-height: 1;
+	}
+	h4 {
+		font-family: $font-primary;
+		font-size: 1.5em;
+		line-height: 1;
 	}
 }

@@ -6,7 +6,6 @@
     cursor: pointer;
     font-size: 14px;
     letter-spacing: 2px;
-    padding-left: 32px;
     position: fixed;
     right: 20px;
     top: 20px;
@@ -14,6 +13,18 @@
     text-transform: uppercase;
     transition: color .35s;
     z-index: 11;
+    padding-left: 20px;
+    @include respond-min($tablet-wide) {
+        padding-left: 32px;
+    }
+    span {
+        display: block;
+        width: 0;
+        overflow: hidden;
+        @include respond-min($tablet-wide) {
+            width: auto;
+        }
+    }
 }
 
 .menu__toggle.animate {
@@ -68,19 +79,20 @@
     background-color: #BF002E;
     box-sizing: border-box;
     color: #fff;
-    height: 100%;
+    
     right: 0;
     overflow: hidden;
     padding: 120px 40px 30px;
     position: fixed;
     right: 0;
     top: 0;
+    bottom: 0;
     transform: translate3d(100%,0, 0);
     transition: transform .5s ease-out,opacity .5s,visibility .5s;
     visibility: hidden;
     will-change: transform,opacity,visibility;
     z-index: 10;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,7 +105,7 @@
 }
 
 .menu__footer {
-    font-size: 12px;
+    font-size: .75rem;
     p {
         margin: 0;
     }
@@ -116,6 +128,6 @@
     li li {
         font-family: $font-primary; 
         padding-left: 1.5em;
-        font-size: 0.8em; 
+        font-size: 0.8rem; 
     }
 }

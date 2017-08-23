@@ -1080,6 +1080,327 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/bower_components\/picturefill\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/bower_components\/picturefill\/Authors.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/Authors.txt",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/picturefill\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/bower_components\/picturefill\/composer.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/composer.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/bower_components\/picturefill\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/picturefill.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/picturefill.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/picturefill.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/picturefill.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/intrinsic-dimension\/pf.intrinsic.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/intrinsic-dimension\/pf.intrinsic.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/intrinsic-dimension\/pf.intrinsic.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/intrinsic-dimension\/pf.intrinsic.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/mutation\/pf.mutation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/mutation\/pf.mutation.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/mutation\/pf.mutation.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/mutation\/pf.mutation.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/oldie\/pf.oldie.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/oldie\/pf.oldie.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/oldie\/pf.oldie.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/oldie\/pf.oldie.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/print\/pf.print.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/print\/pf.print.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/print\/pf.print.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/print\/pf.print.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/typesupport\/pf.type.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/typesupport\/pf.type.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/dist\/plugins\/typesupport\/pf.type.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/dist\/plugins\/typesupport\/pf.type.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/gruntfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/gruntfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/index.html",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/picturefill\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/LICENSE",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/picturefill\/logos\/bocoup-lg.png": {
+		"ft": 32768,
+		"iS": 31957,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/logos\/bocoup-lg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/bower_components\/picturefill\/logos\/bocoup-sm.png": {
+		"ft": 32768,
+		"iS": 31223,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/logos\/bocoup-sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/bower_components\/picturefill\/logos\/fg-lg.png": {
+		"ft": 32768,
+		"iS": 12723,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/logos\/fg-lg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/bower_components\/picturefill\/logos\/fg-sm.png": {
+		"ft": 32768,
+		"iS": 12723,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/logos\/fg-sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/bower_components\/picturefill\/logos\/ricg-seal.png": {
+		"ft": 32768,
+		"iS": 57789,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/logos\/ricg-seal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/bower_components\/picturefill\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/bower_components\/picturefill\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/bower_components\/picturefill\/src\/picturefill.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/src\/picturefill.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/src\/plugins\/gecko-picture\/pf.gecko-picture.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/src\/plugins\/gecko-picture\/pf.gecko-picture.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/src\/plugins\/intrinsic-dimension\/pf.intrinsic.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/src\/plugins\/intrinsic-dimension\/pf.intrinsic.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/src\/plugins\/mutation\/pf.mutation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/src\/plugins\/mutation\/pf.mutation.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/src\/plugins\/oldie\/pf.oldie.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/src\/plugins\/oldie\/pf.oldie.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/src\/plugins\/print\/pf.print.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/src\/plugins\/print\/pf.print.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/picturefill\/src\/plugins\/typesupport\/pf.type.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/picturefill\/src\/plugins\/typesupport\/pf.type.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/bower_components\/slick-carousel\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -1492,6 +1813,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/facebook.jpg": {
+		"ft": 16384,
+		"iS": 1639,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/linenc.jpg": {
 		"ft": 16384,
 		"iS": 447893,
@@ -1596,9 +1927,9 @@
 		},
 	"\/assets\/img\/slides\/junmai.jpg": {
 		"ft": 16384,
-		"iS": 799451,
+		"iS": 799310,
 		"oA": 0,
-		"oAP": "\/assets\/img\/slides\/junmai.jpg",
+		"oAP": "\/assets\/img\/slides\/3-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1609,6 +1940,16 @@
 		"iS": 463896,
 		"oA": 0,
 		"oAP": "\/assets\/img\/slides\/shiraume.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/test.jpg": {
+		"ft": 16384,
+		"iS": 259595,
+		"oA": 0,
+		"oAP": "\/assets\/img\/test.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico">
+    <script>
+    document.createElement( "picture" );
+  </script>
+    <script src="assets/bower_components/picturefill/dist/picturefill.min.js"></script>
     <meta name="format-detection" content="telephone=no">
 
     <!-- google fonts -->
@@ -50,7 +54,9 @@
         </div><!--/.menu -->
         <div class="main-header__bar">
             <div class="main-header__logo">
+              <a class="menu__link"  href="#home">
               <img src="assets/svg/logo.svg" alt="Akashi Sake" />
+              </a>
             </div>
         </div>
       </header>
@@ -61,7 +67,91 @@
         <div style="background-image: url('assets/img/slides/daiginjo.jpg')"></div>
         <div style="background-image: url('assets/img/slides/junmai-daiginjo.jpg')"></div>
         <div style="background-image: url('assets/img/slides/shiraume.jpg')"></div>
+      </div>
 
+      <div class="mobile-carousel" id="mobileCarousel">
+        <div>
+          <img src="assets/img/test.jpg" alt="" />
+          <div class="mobile-carousel__text">
+            <h4>Tokubetsu</h4>
+            <h1>Honjozo</h1>
+            <p>Our Tokubetsu Honjozo is a traditional sake, made using high quality rice that has been lightly milled to remove 40% of the outer (bran) layer of the rice. Lighter in style than other sakes, this has a crisp, dry and easy to drink style. A discrete nose with lime, lemon and straw. The palate is dry with hints of citrus flavours. A smooth and well balanced sake.</p>
+            <p>
+              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Gohyakumangoku<br />
+              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Gohyakumangoku<br />
+              <strong>Rice Milling Rate:</strong> 60%<br />
+              <strong>ABV:</strong> 15%
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/test.jpg" alt="" />
+          <div class="mobile-carousel__text">
+            <h4>Tokubetsu</h4>
+            <h1>Honjozo Genshu</h1>
+            <p>An undiluted sake from Akashi-Tai, fuller in body and with a more concentrated flavour. This is the drink the brew-masters reach for at the end of a working day. Full bodied with woody aroma, very rich. Creamy texture, with well balanced flavours with hints of citrus fruits. Long lingering finish.</p>
+            <p>
+              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Gohyakumangoku<br />
+              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Gohyakumangoku<br />
+              <strong>Rice Milling Rate:</strong> 60%<br />
+              <strong>ABV:</strong> 19%
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/test.jpg" alt="" />
+          <div class="mobile-carousel__text">
+            <h4>Tokubetsu</h4>
+            <h1>Junmai</h1>
+            <p>Our Tokubetsu Junmai begins with 100% Yamadanishiki rice grown in Hyogo Prefecture which is polished until only 60% of the grain is left. This sake is lovingly handcrafted in every step of the process, from making Koji Rice to hand bottling.</p>
+            <p>Akashi-Tai Tokubetsu Junmai is a traditional brew with a satisfyingly full bodied flavour profile, clean and well structured.</p>
+            <p>
+              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
+              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
+              <strong>Rice Milling Rate:</strong> 60%<br />
+              <strong>ABV:</strong> 15%
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/test.jpg" alt="" />
+          <div class="mobile-carousel__text">
+            <h1>Daiginjo Genshu</h1>
+            <p>Our Daiginjo Genshu is a luxuriously aromatic, medium-bodied sake made only in the mid-late winter months from the highest grade Yamadanishiki rice. This sake is perfect for both connoisseurs and those who are just starting to discover.</p>
+            <p>A brew master watches over the koji for 72 hours — without sleeping — to ensure the absolute finest of sakes. A fruity fragrance can be detected amid the full-bodied flavour. Elegant aromas of honey, lily and pear. Delicate flavours of white flowers with a subtle hint of anise. Lemony dry finish.</p>
+            <p>
+              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
+              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
+              <strong>Rice Milling Rate:</strong> 38%<br />
+              <strong>ABV:</strong> 17%
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/test.jpg" alt="" />
+          <div class="mobile-carousel__text">
+            <h1>Junmai Daiginjo Genshu</h1>
+            <p>Made using highly prized Yamadanishiki rice grown in a district of Hyogo. This fine rice is polished until only 38% of the  grain remains, after which two full months are devoted to nurturing our Junmai Daiginjo Genshu sake to completion. Well pronounced nose with melon, lemon, bitter orange, green grass and sage. Very nice balance of minerals, lemon and bitter orange flavours to give a long lasting finish without ever overpowering. A sake you can keep drinking throughout a meal or a long evening with friends.</p>
+            <p>
+              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
+              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
+              <strong>Rice Milling Rate:</strong> 38%<br />
+              <strong>ABV:</strong> 16%
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/test.jpg" alt="" />
+          <div class="mobile-carousel__text">
+            <h1>Shiraume Ginjo Umeshu</h1>
+            <p>A luxurious plum liqueur made by preserving plums in the finest Ginjo sake, made from Yamadanishiki rice. After being marinated for 6 months the fruits are removed from the tank then Shiraume Ginjo Umeshu is left to age for further 2 and a half years. Great as a base for cocktails.</p>
+            <p><strong>Nose:</strong><br />Dry fruit, date, cherry and plum.<br />
+            <strong>Palate:</strong><br />Sweet with rich prune, almond flavours.<br />
+            <strong>Finish:</strong><br />Refreshing dry finish.<br />
+            <strong>ABV:</strong> 14%
+            </p>
+          </div>
+        </div>
       </div>
       <main id="home" class="main">
         <section class="section p-landing">
@@ -93,7 +183,12 @@
 
         <!-- second artboard -->
 
-        <section  id="soul" class="section p-rice-is-key"></section>
+        <picture id="soul"  class="responsive-image">
+            <source media="(min-width: 768px)" srcset="assets/img/1.jpg">
+            <source media="(max-width: 767px)" srcset="assets/img/1_mobile.jpg">
+            <img src="assets/img/1.jpg" alt="Rice is key">
+        </picture>
+
 
         <section class="section--text">
           <header class="section-header">
@@ -109,7 +204,12 @@
 
         <!-- third artboard -->
 
-        <section id="toji" class="section p-toji"></section>
+        <picture id="toji"  class="responsive-image">
+            <source media="(min-width: 768px)" srcset="assets/img/2.jpg">
+            <source media="(max-width: 767px)" srcset="assets/img/2_mobile.jpg">
+            <img src="assets/img/2.jpg" alt="Toji">
+        </picture>
+
 
         <section class="section--text">
           <header class="section-header">
@@ -125,7 +225,12 @@
 
         <!-- fourth artboard -->
 
-        <section id="tai" class="section p-tai"></section>
+        <picture id="tai"  class="responsive-image">
+            <source media="(min-width: 768px)" srcset="assets/img/3.jpg">
+            <source media="(max-width: 767px)" srcset="assets/img/3_mobile.jpg">
+            <img src="assets/img/3.jpg" alt="Toji">
+        </picture>
+
 
         <section class="section--text">
           <header class="section-header">
@@ -163,7 +268,11 @@
 
         <!-- fifth artboard -->
 
-        <section id="innovations" class="section p-artisan">
+        <picture id="innovations"  class="responsive-image">
+            <source media="(min-width: 768px)" srcset="assets/img/4.jpg">
+            <source media="(max-width: 767px)" srcset="assets/img/4_mobile.jpg">
+            <img src="assets/img/4.jpg" alt="Toji">
+        </picture>
             
         </section>
 
@@ -178,13 +287,19 @@
           </div>
         </section>
 
-        <section class="section p-tank">
-            
-        </section>
+        <picture class="responsive-image">
+            <source media="(min-width: 768px)" srcset="assets/img/5.jpg">
+            <source media="(max-width: 767px)" srcset="assets/img/5_mobile.jpg">
+            <img class=" p-tank" src="assets/img/5.jpg" alt="Toji">
+        </picture>
 
         <!-- sixth artboard -->
 
-        <section id="knowledge" class="section p-rice"></section>
+        <picture id="knowledge"  class="responsive-image">
+            <source media="(min-width: 768px)" srcset="assets/img/6.jpg">
+            <source media="(max-width: 767px)" srcset="assets/img/6_mobile.jpg">
+            <img src="assets/img/6.jpg" alt="Toji">
+        </picture>
 
         <section class="section--text">
           <header class="section-header">

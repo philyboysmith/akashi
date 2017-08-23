@@ -7,8 +7,9 @@ Akashi = {
   settings: {
     menuTrigger: $("#menuTrigger"),
     carouselTrigger: $("#carouselTrigger"),
+    mobileCarousel: $("#mobileCarousel"),
     menuLink: $(".menu__link"),
-    header: $(".main-header__bar")
+    header: $(".main-header__bar"),
   },
 
   init: function() {
@@ -43,35 +44,57 @@ Akashi = {
 
   openCarousel: function (event) {
     event.preventDefault();
-    $('.slick-slider').css('visibility', 'visible');
-    $('.slick-slider').css('opacity', '1');
+    var width = $(window).width();
+    if (width < 768) {
+      $('#mobileCarousel').css('display', 'block');
+      $('#mobileCarousel').css('visibility', 'visible');
+      $('#mobileCarousel').css('opacity', 1);
+      $('#home').fadeOut();
+    } else {
+      $('.slick-slider').css('visibility', 'visible');
+      $('.slick-slider').css('opacity', '1');      
+    }
+      $("html, body").animate({ scrollTop: 0 }, 0);
   },
   scroll: function(event, link) {
-      var target = $(link.hash);
-      target = target.length ? target : $('[name=' + link.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('.slick-slider').css('visibility', 'hidden');
-        $('.slick-slider').css('opacity', '0');
+      if(link.hash == '#range'){
+        Akashi.openCarousel(event);
         $('.menu__toggle').removeClass('animate');
         $('.menu').removeClass('animate');
-        $('html, body').animate({
-          scrollTop: target.offset().top - a.header.outerHeight()
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
+      } else {
+        var target = $(link.hash);
+        console.log('Testing console');
+        target = target.length ? target : $('[name=' + link.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('.slick-slider').css('visibility', 'hidden');
+          $('.slick-slider').css('opacity', '0');
+          $('.menu__toggle').removeClass('animate');
+          $('.menu').removeClass('animate');
+          $('#mobileCarousel').css('display', 'none');
+          $('#mobileCarousel').css('visibility', 'hidden');
+          $('#mobileCarousel').css('opacity', 0);
+          $('#home').show();
+          $('html, body').animate({
+            scrollTop: target.offset().top - a.header.outerHeight()
+          }, 1000, function() {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+
+            $target.focus();
+            if ($target.is(":focus")) { // Checking if the target was focused
+              return false;
+            } else {
+              $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
+            };
+          });
+        }
       }
+      
 
   }
 
