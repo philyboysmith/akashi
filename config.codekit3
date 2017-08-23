@@ -1080,6 +1080,220 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/bower_components\/slick-carousel\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/bower_components\/slick-carousel\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/bower_components\/slick-carousel\/component.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/component.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/bower_components\/slick-carousel\/CONTRIBUTING.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/CONTRIBUTING.markdown",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/ISSUE_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/ISSUE_TEMPLATE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/LICENSE",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/Makefile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/Makefile",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/README.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/README.markdown",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick.jquery.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick.jquery.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/config.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/config.rb",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/fonts\/slick.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/fonts\/slick.eot",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/fonts\/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/fonts\/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/fonts\/slick.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/fonts\/slick.ttf",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/fonts\/slick.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/fonts\/slick.woff",
+		"oF": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/slick-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/slick-theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/slick-theme.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/slick-theme.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/slick.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/slick.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/slick.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/slick.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/slick.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/slick.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/slick.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/bower_components\/slick-carousel\/slick\/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/bower_components\/slick-carousel\/slick\/slick.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1158,6 +1372,136 @@
 		"oAP": "\/assets\/fonts\/gotham-medium\/gotham-medium.woff",
 		"oF": 0
 		},
+	"\/assets\/img\/1.jpg": {
+		"ft": 16384,
+		"iS": 416918,
+		"oA": 0,
+		"oAP": "\/assets\/img\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/1_mobile.jpg": {
+		"ft": 16384,
+		"iS": 440697,
+		"oA": 0,
+		"oAP": "\/assets\/img\/1_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/2.jpg": {
+		"ft": 16384,
+		"iS": 383988,
+		"oA": 0,
+		"oAP": "\/assets\/img\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/2_mobile.jpg": {
+		"ft": 16384,
+		"iS": 423096,
+		"oA": 0,
+		"oAP": "\/assets\/img\/2_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/3.jpg": {
+		"ft": 16384,
+		"iS": 353028,
+		"oA": 0,
+		"oAP": "\/assets\/img\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/3_mobile.jpg": {
+		"ft": 16384,
+		"iS": 423096,
+		"oA": 0,
+		"oAP": "\/assets\/img\/3_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/4.jpg": {
+		"ft": 16384,
+		"iS": 365347,
+		"oA": 0,
+		"oAP": "\/assets\/img\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/4_mobile.jpg": {
+		"ft": 16384,
+		"iS": 425832,
+		"oA": 0,
+		"oAP": "\/assets\/img\/4_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/5.jpg": {
+		"ft": 16384,
+		"iS": 389134,
+		"oA": 0,
+		"oAP": "\/assets\/img\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/5_mobile.jpg": {
+		"ft": 16384,
+		"iS": 376813,
+		"oA": 0,
+		"oAP": "\/assets\/img\/5_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/6.jpg": {
+		"ft": 16384,
+		"iS": 710881,
+		"oA": 0,
+		"oAP": "\/assets\/img\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/6_mobile.jpg": {
+		"ft": 16384,
+		"iS": 759480,
+		"oA": 0,
+		"oAP": "\/assets\/img\/6_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/linenc.jpg": {
+		"ft": 16384,
+		"iS": 447893,
+		"oA": 0,
+		"oAP": "\/assets\/img\/linenc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/logo-on-linenc.jpg": {
 		"ft": 16384,
 		"iS": 555941,
@@ -1166,6 +1510,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 13611,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/logoc.png": {
@@ -1179,19 +1534,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/p-artisan.jpg": {
-		"ft": 16384,
-		"iS": 351469,
-		"oA": 0,
-		"oAP": "\/assets\/img\/p-artisan.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/p-range.jpg": {
 		"ft": 16384,
-		"iS": 605058,
+		"iS": 3489461,
 		"oA": 0,
 		"oAP": "\/assets\/img\/p-range.jpg",
 		"oF": 0,
@@ -1199,51 +1544,71 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/p-rice-is-key.jpg": {
+	"\/assets\/img\/p-range_mobile.jpg": {
 		"ft": 16384,
-		"iS": 394239,
+		"iS": 435075,
 		"oA": 0,
-		"oAP": "\/assets\/img\/p-rice-is-key.jpg",
+		"oAP": "\/assets\/img\/p-range_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/p-rice.jpg": {
+	"\/assets\/img\/slides\/daiginjo.jpg": {
 		"ft": 16384,
-		"iS": 630582,
+		"iS": 380963,
 		"oA": 0,
-		"oAP": "\/assets\/img\/p-rice.jpg",
+		"oAP": "\/assets\/img\/slides\/daiginjo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/p-tai.jpg": {
+	"\/assets\/img\/slides\/genshu.jpg": {
 		"ft": 16384,
-		"iS": 330069,
+		"iS": 426511,
 		"oA": 0,
-		"oAP": "\/assets\/img\/p-tai.jpg",
+		"oAP": "\/assets\/img\/slides\/genshu.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/p-tank.jpg": {
+	"\/assets\/img\/slides\/honjozo.jpg": {
 		"ft": 16384,
-		"iS": 364793,
+		"iS": 467916,
 		"oA": 0,
-		"oAP": "\/assets\/img\/p-tank.jpg",
+		"oAP": "\/assets\/img\/slides\/honjozo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/p-toji.jpg": {
+	"\/assets\/img\/slides\/junmai-daiginjo.jpg": {
 		"ft": 16384,
-		"iS": 347003,
+		"iS": 611533,
 		"oA": 0,
-		"oAP": "\/assets\/img\/p-toji.jpg",
+		"oAP": "\/assets\/img\/slides\/junmai-daiginjo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/slides\/junmai.jpg": {
+		"ft": 16384,
+		"iS": 799451,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slides\/junmai.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/slides\/shiraume.jpg": {
+		"ft": 16384,
+		"iS": 463896,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slides\/shiraume.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1323,6 +1688,19 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/assets\/scss\/components\/_carousel.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/components\/_carousel.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/scss\/components\/_header.scss": {
 		"aP": 0,
@@ -1477,11 +1855,42 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/assets\/svg\/1A5D2F89FEC6F800.png": {
+		"ft": 32768,
+		"iS": 4352,
+		"oA": 0,
+		"oAP": "\/assets\/svg\/1A5D2F89FEC6F800.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/svg\/96A3C326061F6FE8.jpg": {
+		"ft": 16384,
+		"iS": 3346,
+		"oA": 0,
+		"oAP": "\/assets\/svg\/96A3C326061F6FE8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/svg\/close.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/svg\/close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/svg\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/svg\/facebook.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1522,6 +1931,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/svg\/right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/svg\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/svg\/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

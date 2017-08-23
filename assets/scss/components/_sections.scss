@@ -8,13 +8,11 @@ html {
 	overflow: hidden;
 }
 .section {
-	min-height: 100vh;
 	background-size: cover;
 	padding: 3em;
 	outline: 0;
 	background-position: center center;
 	background-repeat: no-repeat;
-	min-height: calc(100vh - 57px);
 	background-size: auto 100%;
 	position: relative;
 	h2 {
@@ -36,11 +34,17 @@ html {
 	text-transform: uppercase;
 	padding: 0.75em  3em;
 	font-size: 14px;
+	transition: opacity 0.2s;
+    letter-spacing: 0.2em;
+	&:hover {
+		color: white;
+		opacity: 0.9;
+	}
 }
 
 %page {
 	background-size: cover;
-	// min-height: 68.6458333vw;
+	padding-top: 68%;
 	background-color: white;
 }
 .p-landing {
@@ -54,16 +58,18 @@ html {
 	text-align: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: stretch;
     position: fixed;
     top: 0;
     left: 0;
 	width: 100%;
+	padding-top: 58px!important;
+	padding-bottom: 0;
+
 }
 
 .p-range {
 	min-height: 68.6458333vw;
-	border-top: $spacing *4 white solid;
 	box-sizing: content-box;
 	background-image: url(../img/p-range.jpg);
 	@extend %page;
@@ -73,14 +79,16 @@ html {
     align-items: center;
     justify-content: space-between;
     margin-top: 100vh;
+	padding-top: 58px!important;
+
 }
 
-.p-artisan {
-	background-image: url(../img/p-artisan.jpg);
-	@extend %page;
-}
+
 .p-rice-is-key {
-	background-image: url(../img/p-rice-is-key.jpg);
+	background-image: url(../img/1_mobile.jpg);
+	@media only screen  and (orientation : landscape){
+		background-image: url(../img/1.jpg);		
+	}
 	@extend %page;
 	.c-section__overlay {
 	    left: 58%;
@@ -89,16 +97,24 @@ html {
 	    right: 0;
 	}
 }
-.p-rice {
-	background-image: url(../img/p-rice.jpg);
+
+.p-toji {
+	background-image: url(../img/2_mobile.jpg);
+	@media only screen  and (orientation : landscape){
+		background-image: url(../img/2.jpg);		
+	}
 	@extend %page;
 	.c-section__overlay {
-		max-width: 21em;
-	    bottom: 10%;
+	    max-width: 22em;
 	}
 }
+
+
 .p-tai {
-	background-image: url(../img/p-tai.jpg);
+	background-image: url(../img/3_mobile.jpg);
+	@media only screen  and (orientation : landscape){
+		background-image: url(../img/3.jpg);		
+	}
 	@extend %page;
 	.c-section__overlay {
 	    right: 10%;
@@ -106,18 +122,36 @@ html {
 	    transform:translateY(-50%);
 	}
 }
+
+.p-artisan {
+	background-image: url(../img/4_mobile.jpg);
+	@media only screen  and (orientation : landscape){
+		background-image: url(../img/4.jpg);		
+	}
+	@extend %page;
+}
+
 .p-tank {
-	background-image: url(../img/p-tank.jpg);
+	background-image: url(../img/5_mobile.jpg);
+	@media only screen  and (orientation : landscape){
+		background-image: url(../img/5.jpg);		
+	}
 	@extend %page;
 	border-bottom: $spacing * 4 solid white;
 }
-.p-toji {
-	background-image: url(../img/p-toji.jpg);
+
+.p-rice {
+	background-image: url(../img/6_mobile.jpg);
+	@media only screen  and (orientation : landscape){
+		background-image: url(../img/6.jpg);		
+	}
 	@extend %page;
 	.c-section__overlay {
-	    max-width: 22em;
+		max-width: 21em;
+	    bottom: 10%;
 	}
 }
+
 
 .c-section__overlay {
 	position: absolute;
@@ -134,11 +168,12 @@ html {
 }
 
 .section-body {
-	max-width: 60em;
+	max-width: 48em;
 }
 
 .section-columns {
 	padding-top: $spacing * 2;
+	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: column;
@@ -164,23 +199,85 @@ html {
 }
 
 .c-logo--wrapper {
-	max-width: 30vh;
-	max-height: 80vh;
+	max-width: 35vh;
+	max-height: 100%;
+	flex: 1;
 	width: 80%;
 	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 4em 0;
+    .intro {
+    	font-size: 14px;
+	    position: absolute;
+	    top: 2em;
+	    left: 0;
+		right: 0;
+		text-align: center;
+    }
 }
 .c-logo {
 	margin-top: 1em;
 	background-image: url(../img/logoc.png);
+	background-repeat: no-repeat;
+	background-position: center center;
 	height: 0;
 	padding-top: 184.4%;
 	background-size: cover;
 	font-size: 0;
 	text-indent:9999px; 
+	transform: translateX(-9%);
+}
+
+
+
+.region-link {
+	color: black;
+	border-bottom: 2px solid $color-primary;
+	padding-bottom: 3px;
+}
+
+.outside-japan {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > * {
+	    border-bottom: 2px solid $color-primary;
+		padding-bottom: $spacing / 2;
+		margin-bottom: $spacing ;
+    }
+}
+
+.social-links {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.social-links__item {
+	display: inline-block;
+	a {
+		width: 1.5em;
+		height: 1.5em;
+		text-indent: -9999px;
+		display: inline-block;
+	}
+}
+
+.social-links__item--twitter a{
+	background-image: url(../svg/twitter.svg);
+}
+
+.social-links__item--facebook a{
+	background-image: url(../svg/facebook.svg);	
 }
 
 @media (max-width: $tablet) {
 	.c-section__overlay {
 		position: relative!important;
+	    transform:translateY(0%)!important;
 	}
 }
