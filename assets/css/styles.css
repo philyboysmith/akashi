@@ -619,11 +619,15 @@ html {
     .p-range header {
       position: absolute;
       top: 9%;
-      z-index: 10; }
+      z-index: 10;
+      left: 50%;
+      transform: translateX(-50%); }
     .p-range footer {
       position: absolute;
       bottom: 7%;
-      z-index: 10; }
+      z-index: 10;
+      left: 50%;
+      transform: translateX(-50%); }
     .p-range .btn {
       border-color: white;
       color: white; } }
