@@ -5,6 +5,8 @@ html {
 
 .responsive-image img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .main {
@@ -14,6 +16,7 @@ html {
 
 .responsive-image {
 	position: relative;
+	max-width: 100%;
 }
 
 .section {

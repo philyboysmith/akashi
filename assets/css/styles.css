@@ -535,14 +535,17 @@ html {
   background-size: cover; }
 
 .responsive-image img {
-  display: block; }
+  display: block;
+  max-width: 100%;
+  height: auto; }
 
 .main {
   width: 100%;
   overflow: hidden; }
 
 .responsive-image {
-  position: relative; }
+  position: relative;
+  max-width: 100%; }
 
 .section {
   background-size: cover;
