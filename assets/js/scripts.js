@@ -1,6 +1,11 @@
 //@codekit-prepend "../bower_components/jquery/dist/jquery.js"
 //@codekit-prepend "../bower_components/slick-carousel/slick/slick.js"
 
+if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+  $('body').addClass('ie');
+}
+
+
 var a,
 Akashi = {
 
