@@ -537,7 +537,8 @@ html {
 .responsive-image img {
   display: block;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  width: 10000px; }
 
 .main {
   width: 100%;
@@ -625,7 +626,9 @@ html {
       top: 9%;
       z-index: 10;
       left: 50%;
-      transform: translateX(-50%); }
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 30em; }
     .p-range footer {
       position: absolute;
       bottom: 7%;
