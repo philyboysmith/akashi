@@ -598,7 +598,8 @@ html {
   left: 0;
   width: 100%;
   padding-top: 58px !important;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  margin-bottom: 0 !important; }
 
 .p-range {
   margin-top: 100vh;
@@ -783,6 +784,12 @@ html {
     font-family: "gotham-light", serif;
     font-size: 1.5em;
     line-height: 1; }
+
+.ie .p-landing {
+  position: static; }
+
+.ie .p-range {
+  margin-top: 0; }
 
 /**
  * Menu Toggle

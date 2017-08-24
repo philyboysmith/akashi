@@ -79,6 +79,7 @@ html {
 	width: 100%;
 	padding-top: 58px!important;
 	padding-bottom: 0;
+	margin-bottom: 0!important;
 
 }
 
@@ -321,4 +322,12 @@ html {
 		font-size: 1.5em;
 		line-height: 1;
 	}
+}
+
+.ie .p-landing {
+	position: static;
+}
+
+.ie .p-range {
+	margin-top: 0;
 }
