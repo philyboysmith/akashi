@@ -574,7 +574,7 @@ html {
     color: white;
     opacity: 0.9; }
 
-.p-range, .p-rice-is-key, .p-toji, .p-tai, .p-artisan, .p-rice {
+.p-rice-is-key, .p-toji, .p-tai, .p-artisan, .p-rice {
   background-size: cover;
   padding-top: 68%;
   background-color: white; }
@@ -598,19 +598,33 @@ html {
   padding-bottom: 0; }
 
 .p-range {
-  min-height: 68.6458333vw;
-  box-sizing: content-box;
-  background-image: url(../img/p-range.jpg);
-  display: flex;
+  margin-top: 100vh;
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 100vh;
-  padding-top: 1rem; }
-  @media only screen and (orientation: landscape) {
-    .p-range {
-      padding-top: 58px !important; } }
+  position: relative;
+  padding-top: 2em; }
+  .p-range .btn {
+    border-color: #CE1A31;
+    color: #CE1A31; }
+  .p-range img {
+    margin: 1em 0; }
+  @media screen and (min-width: 48rem) {
+    .p-range img {
+      margin: 0; }
+    .p-range header {
+      position: absolute;
+      top: 9%; }
+    .p-range footer {
+      position: absolute;
+      bottom: 7%; }
+    .p-range .btn {
+      border-color: white;
+      color: white; } }
 
 .p-rice-is-key {
   background-image: url(../img/1_mobile.jpg); }
@@ -680,10 +694,13 @@ html {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column; }
+  .section-columns > div {
+    margin-bottom: 2em; }
   @media screen and (min-width: 48rem) {
     .section-columns {
       flex-direction: row; }
       .section-columns > div {
+        margin-bottom: 0;
         width: 25%; } }
 
 .section-header {
@@ -745,7 +762,7 @@ html {
   display: none; }
 
 .mobile-carousel__text {
-  padding: 1.5rem 1rem; }
+  padding: 3rem 1rem 2rem; }
   .mobile-carousel__text h1 {
     font-size: 2em;
     display: inline-block;
@@ -897,7 +914,7 @@ html {
   text-align: left;
   height: 58px; }
   .main-header__logo img {
-    max-width: 262px;
+    max-width: 290px;
     padding-right: 4em;
     padding-left: 10px;
     position: absolute;
@@ -910,6 +927,7 @@ html {
       text-align: center;
       padding-right: 0; }
       .main-header__logo img {
+        max-width: 262px;
         padding-right: 0;
         padding-left: 0;
         position: relative;
