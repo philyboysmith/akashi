@@ -618,10 +618,12 @@ html {
       margin: 0; }
     .p-range header {
       position: absolute;
-      top: 9%; }
+      top: 9%;
+      z-index: 10; }
     .p-range footer {
       position: absolute;
-      bottom: 7%; }
+      bottom: 7%;
+      z-index: 10; }
     .p-range .btn {
       border-color: white;
       color: white; } }
