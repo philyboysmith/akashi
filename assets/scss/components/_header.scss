@@ -2,7 +2,7 @@
     padding: 0 ;
     position: relative;
     text-align: center;
-    z-index: 3;
+    z-index: 300;
     background: $color-white;
     position: fixed;
     top: 0;
@@ -43,6 +43,11 @@
     }
 }
 
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .c-logo--wrapper {
     max-width: 35vh;
