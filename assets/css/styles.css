@@ -714,7 +714,9 @@ html {
       flex-direction: row; }
       .section-columns > div {
         margin-bottom: 0;
-        width: 25%; } }
+        width: 25%;
+        margin-left: 4%;
+        margin-right: 4%; } }
 
 .section-header {
   text-transform: uppercase; }
@@ -807,7 +809,7 @@ html {
   line-height: 23px;
   text-transform: uppercase;
   transition: color .35s;
-  z-index: 11;
+  z-index: 99999;
   padding-left: 20px; }
   @media screen and (min-width: 48rem) {
     .menu__toggle {

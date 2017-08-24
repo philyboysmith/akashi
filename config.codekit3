@@ -1895,11 +1895,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/slides\/daiginjo_mobile.jpg": {
+		"ft": 16384,
+		"iS": 578465,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slides\/daiginjo_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/slides\/genshu.jpg": {
 		"ft": 16384,
 		"iS": 426511,
 		"oA": 0,
 		"oAP": "\/assets\/img\/slides\/genshu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/slides\/genshu_mobile.jpg": {
+		"ft": 16384,
+		"iS": 392771,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slides\/genshu_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1915,6 +1935,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/slides\/honjozo_mobile.jpg": {
+		"ft": 16384,
+		"iS": 525362,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slides\/honjozo_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/slides\/junmai-daiginjo.jpg": {
 		"ft": 16384,
 		"iS": 611533,
@@ -1925,11 +1955,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/slides\/junmai-daiginjo_mobile.jpg": {
+		"ft": 16384,
+		"iS": 753463,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slides\/junmai-daiginjo_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/slides\/junmai.jpg": {
 		"ft": 16384,
-		"iS": 799451,
+		"iS": 799310,
 		"oA": 0,
 		"oAP": "\/assets\/img\/slides\/3-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/slides\/junmai_mobile.jpg": {
+		"ft": 16384,
+		"iS": 957580,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slides\/junmai_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1940,6 +1990,16 @@
 		"iS": 463896,
 		"oA": 0,
 		"oAP": "\/assets\/img\/slides\/shiraume.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/slides\/shiraume_mobile.jpg": {
+		"ft": 16384,
+		"iS": 557376,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slides\/shiraume_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
