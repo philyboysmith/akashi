@@ -297,6 +297,9 @@ html {
 		position: relative!important;
 	    transform:translateY(0%)!important;
 	}
+	.fish-hr {
+		display: none;
+	}
 }
 
 .mobile-carousel {
@@ -336,3 +339,4 @@ html {
 .ie .p-range {
 	margin-top: 0;
 }
+

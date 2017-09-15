@@ -1,5 +1,6 @@
 //@codekit-prepend "../bower_components/jquery/dist/jquery.js"
 //@codekit-prepend "../bower_components/slick-carousel/slick/slick.js"
+//@codekit-prepend "../bower_components/magnific-popup/dist/jquery.magnific-popup.js"
 
 if (document.documentMode || /Edge/.test(navigator.userAgent)) {
   $('body').addClass('ie');
@@ -21,6 +22,7 @@ Akashi = {
     a = this.settings;
     this.bindUIActions();
     Akashi.carousel();
+    Akashi.popup();
   },
 
   bindUIActions: function() {
@@ -35,6 +37,17 @@ Akashi = {
       Akashi.scroll(event, link);
     });
 
+  },
+  popup: function() {
+    $('.popup-modal').magnificPopup({
+      type: 'inline',
+      preloader: false,
+      modal: true
+    });
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
+      e.preventDefault();
+      $.magnificPopup.close();
+    });
   },
   carousel: function () {
     $('.carousel').slick({

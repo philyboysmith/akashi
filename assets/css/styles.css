@@ -387,7 +387,7 @@ figcaption {
   width: 100%;
   bottom: 0;
   background-color: white;
-  z-index: 2;
+  z-index: 20;
   display: block;
   box-sizing: border-box;
   user-select: none;
@@ -764,7 +764,9 @@ html {
 @media (max-width: 40rem) {
   .c-section__overlay {
     position: relative !important;
-    transform: translateY(0%) !important; } }
+    transform: translateY(0%) !important; }
+  .fish-hr {
+    display: none; } }
 
 .mobile-carousel {
   position: absolute;
@@ -879,7 +881,7 @@ html {
   transition: transform .5s ease-out,opacity .5s,visibility .5s;
   visibility: hidden;
   will-change: transform,opacity,visibility;
-  z-index: 10;
+  z-index: 1000;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -912,6 +914,37 @@ html {
     font-family: "gotham-light", serif;
     padding-left: 1.5em;
     font-size: 14px; }
+
+.white-popup-block {
+  background: #FFF;
+  padding: 20px 30px 0 30px;
+  text-align: left;
+  max-width: 380px;
+  margin: 40px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.popup-modal-dismiss {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 3em;
+  width: 3em;
+  text-indent: -999px;
+  background: #CE1A31 url(../svg/close.svg) no-repeat center center;
+  background-size: 16px 16px; }
+
+.white-popup-block h1 {
+  border-bottom: 2px solid #CE1A31;
+  margin-bottom: .75em; }
+
+.white-popup-block p {
+  margin-bottom: 0.75em; }
+
+.white-popup-block a {
+  color: inherit; }
 
 .main-header__bar {
   padding: 0;
