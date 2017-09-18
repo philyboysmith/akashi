@@ -2022,7 +2022,7 @@
 		},
 	"\/assets\/img\/6_mobile.jpg": {
 		"ft": 16384,
-		"iS": 759480,
+		"iS": 376813,
 		"oA": 0,
 		"oAP": "\/assets\/img\/6_mobile.jpg",
 		"oF": 0,
@@ -2102,31 +2102,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/slides\/6b-1.jpg": {
-		"ft": 16384,
-		"iS": 504140,
-		"oA": 0,
-		"oAP": "\/assets\/img\/slides\/6b-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/slides\/daiginjo.jpg": {
 		"ft": 16384,
 		"iS": 380963,
 		"oA": 0,
 		"oAP": "\/assets\/img\/slides\/daiginjo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/slides\/daiginjo_mobile.jpg": {
-		"ft": 16384,
-		"iS": 578465,
-		"oA": 0,
-		"oAP": "\/assets\/img\/slides\/daiginjo_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2142,31 +2122,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/slides\/genshu_mobile.jpg": {
-		"ft": 16384,
-		"iS": 392771,
-		"oA": 0,
-		"oAP": "\/assets\/img\/slides\/genshu_mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/slides\/honjozo.jpg": {
 		"ft": 16384,
 		"iS": 467916,
 		"oA": 0,
 		"oAP": "\/assets\/img\/slides\/honjozo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/slides\/honjozo_mobile.jpg": {
-		"ft": 16384,
-		"iS": 525362,
-		"oA": 0,
-		"oAP": "\/assets\/img\/slides\/honjozo_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2182,16 +2142,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/slides\/junmai-daiginjo_mobile.jpg": {
-		"ft": 16384,
-		"iS": 753463,
-		"oA": 0,
-		"oAP": "\/assets\/img\/slides\/junmai-daiginjo_mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/slides\/junmai.jpg": {
 		"ft": 16384,
 		"iS": 799310,
@@ -2202,21 +2152,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/slides\/junmai_mobile.jpg": {
+	"\/assets\/img\/slides\/shiraume.jpg": {
 		"ft": 16384,
-		"iS": 957580,
+		"iS": 504140,
 		"oA": 0,
-		"oAP": "\/assets\/img\/slides\/junmai_mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/slides\/shiraume_mobile.jpg": {
-		"ft": 16384,
-		"iS": 557376,
-		"oA": 0,
-		"oAP": "\/assets\/img\/slides\/shiraume_mobile.jpg",
+		"oAP": "\/assets\/img\/slides\/shiraume.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
