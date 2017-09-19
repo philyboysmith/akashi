@@ -159,10 +159,7 @@
     position: relative;
 
     display: inline-block;
-    border-radius: $dots-size;
-    overflow: hidden;
-    width: $dots-size;
-    height: $dots-size;
+
     margin: 0 5px;
     padding: 0;
 
@@ -173,6 +170,7 @@
     font-size: 0;
     line-height: 0;
     display: block;
+    border-radius: $dots-size;
     width: $dots-size;
     height: $dots-size;
     padding: 5px;

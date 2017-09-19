@@ -503,10 +503,6 @@ figcaption {
 .slick-dots li {
   position: relative;
   display: inline-block;
-  border-radius: 10px;
-  overflow: hidden;
-  width: 10px;
-  height: 10px;
   margin: 0 5px;
   padding: 0;
   cursor: pointer; }
@@ -515,6 +511,7 @@ figcaption {
   font-size: 0;
   line-height: 0;
   display: block;
+  border-radius: 10px;
   width: 10px;
   height: 10px;
   padding: 5px;
