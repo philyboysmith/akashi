@@ -255,6 +255,13 @@ input::-moz-focus-inner {
   src: url("../fonts/gotham-light/gotham-light.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-light/gotham-light.woff") format("woff"), url("../fonts/gotham-light/gotham-light.ttf") format("truetype"), url("../fonts/gotham-light/gotham-light.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
+@font-face {
+  font-family: 'gotham-bold';
+  src: url("../fonts/gotham-bold/gotham-bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/gotham-bold/gotham-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-bold/gotham-bold.woff") format("woff"), url("../fonts/gotham-bold/gotham-bold.ttf") format("truetype"), url("../fonts/gotham-bold/gotham-bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
 html {
   font-size: 80%; }
   @media screen and (min-width: 48rem) {
@@ -274,7 +281,8 @@ h1, h2, h3, h4, h5, h6,
 
 h2,
 h3 {
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.2em;
+  font-family: 'gotham-bold'; }
 
 p {
   margin-bottom: 1.5rem; }
@@ -905,8 +913,12 @@ html {
  * Navigation
  */
 .main-navigation {
-  line-height: 2em;
+  line-height: 1.4em;
   font-family: "gotham-medium", serif; }
+  .main-navigation li {
+    padding: 1em 0 0; }
+  .main-navigation li li:last-child {
+    padding-bottom: 0; }
   .main-navigation a {
     color: white; }
   .main-navigation a:hover {

@@ -119,7 +119,14 @@
  */
 
 .main-navigation {
-    line-height: 2em;
+    line-height: 1.4em;
+    li {
+        padding: 1em 0 0;
+    }
+    li li:last-child {
+        padding-bottom: 0;
+    }
+    // line-height: 2em;
     a {
         color: white;
     }

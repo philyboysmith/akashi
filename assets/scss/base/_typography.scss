@@ -16,6 +16,14 @@
        url('../fonts/gotham-light/gotham-light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'gotham-bold';
+  src: url('../fonts/gotham-bold/gotham-bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/gotham-bold/gotham-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/gotham-bold/gotham-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/gotham-bold/gotham-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/gotham-bold/gotham-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
 
 //---------------------------------------------//
@@ -49,6 +57,7 @@ h1, h2, h3, h4, h5, h6,
 
 h2, h3 {
   letter-spacing: 0.2em;
+  font-family: 'gotham-bold'
 }
 
 
