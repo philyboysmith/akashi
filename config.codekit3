@@ -7,7 +7,7 @@
 		"uuidString": "E9CD912C-A83A-42C5-BD68-F2F1A83ACA90"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/akashi.sublime-project": {
 		"cB": 0,
@@ -2251,6 +2251,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/gateway-bg.jpg": {
+		"ft": 16384,
+		"iS": 165533,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gateway-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/img\/linenc.jpg": {
 		"ft": 16384,
 		"iS": 447893,
@@ -2443,6 +2453,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/js\/overlay.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/overlay-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/scripts-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2615,6 +2635,29 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/assets\/scss\/overlay.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/scss\/overlay-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/scss\/overlay.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/scss\/overlay.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/scss\/styles.scss": {
 		"aP": 0,
@@ -2797,6 +2840,20 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/overlay.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/overlay.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -3378,6 +3435,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

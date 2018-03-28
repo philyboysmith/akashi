@@ -1,401 +1,472 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Akashi Sake Brewery</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <script>
-    document.createElement( "picture" );
-    </script>
-    <style>
-    .menu.animate{
-      overflow: scroll; 
-    }</style>
-    <script src="assets/bower_components/picturefill/dist/picturefill.min.js"></script>
-    <meta name="format-detection" content="telephone=no">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Akashi Sake Brewery</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <script>
+            document.createElement("picture");
+        </script>
+        <style>
+            .menu.animate {
+                overflow: scroll;
+            }
+        </style>
+        <script src="assets/bower_components/picturefill/dist/picturefill.min.js"></script>
+        <meta name="format-detection" content="telephone=no">
 
-    <!-- google fonts -->
-    <link href='//fonts.googleapis.com/css?family=Lato:400,700,900|Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <!-- site style -->
-    <link href="assets/css/styles.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="assets/bower_components/magnific-popup/dist/magnific-popup.css" media="all" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id="page">
-      <header class="main-header">
-        <div class="menu__toggle" id="menuTrigger">
-          <span>Menu</span>
-        </div>
-        <div class="menu">
-          <div class="menu__navigation">
-            <div class="main-navigation">
-              <ul>
-                <li><a class="menu__link" href="#home">HOME</a></li>
-                <li>AKASHI-TAI SAKE
-                    <ul>
-                      <li><a class="menu__link" href="#range">EXPLORE THE RANGE</a></li>
-                      <li><a class="menu__link" href="#soul">FINDING THE SOUL OF THE SAKE</a></li>
-                      <li><a class="menu__link" href="#toji">A WORD FROM OUR TOJI</a></li>
-                      <li><a class="menu__link" href="#tai">WHY A FISH?</a></li>
-                    </ul>
-                </li>
-                <li>AKASHI SAKE BREWERY
-                  <ul>
-                    <li><a class="menu__link"  href="#innovations">TODAYS INNOVATIONS</a></li>
-                    <li><a class="menu__link"  href="#knowledge">KNOW RICE</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="menu__link" href="#contact">CONTACT</a>
-                </li>
-                <hr style="margin-bottom: 0; border-top: white 1px solid;"/>
-                <li style="margin-bottom: 1em"><a class="menu__link" href="http://akashi-tai.com/">日本語 - JAPANESE SITE</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="menu__footer">
-            <p>Japan<br/>673-0871 Hyogo Prefecture<br/>Akashi<br/>Okurahachimancho</p>
-          </div>
-        </div><!--/.menu -->
-        <div class="main-header__bar">
-            <div class="main-header__logo">
-              <a class="menu__link"  href="#home">
-              <img src="assets/svg/logo.svg" alt="Akashi Sake" />
-              </a>
-            </div>
-        </div>
-      </header>
-      <div class="carousel">
-        <div style="background-image: url('assets/img/slides/honjozo.jpg')"></div>
-        <div style="background-image: url('assets/img/slides/genshu.jpg')"></div>
-        <div style="background-image: url('assets/img/slides/junmai.jpg')"></div>
-        <div style="background-image: url('assets/img/slides/daiginjo.jpg')"></div>
-        <div style="background-image: url('assets/img/slides/junmai-daiginjo.jpg')"></div>
-        <div style="background-image: url('assets/img/slides/shiraume.jpg')"></div>
-      </div>
+        <!-- google fonts -->
+        <link href='//fonts.googleapis.com/css?family=Lato:400,700,900|Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <!-- site style -->
+        <link href="assets/css/styles.css" media="all" rel="stylesheet" type="text/css"/>
 
-      <div class="mobile-carousel" id="mobileCarousel">
-        <div>
-          <img src="assets/img/slides/honjozo_mobile.jpg" alt="" />
-          <div class="mobile-carousel__text">
-            <h4>Tokubetsu</h4>
-            <h1>Honjozo</h1>
-            <p>Our Tokubetsu Honjozo is a traditional sake, made using high quality rice that has been lightly milled to remove 40% of the outer (bran) layer of the rice. Lighter in style than other sakes, this has a crisp, dry and easy to drink style. A discrete nose with lime, lemon and straw. The palate is dry with hints of citrus flavours. A smooth and well balanced sake.</p>
-            <p>
-              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Gohyakumangoku<br />
-              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Gohyakumangoku<br />
-              <strong>Rice Milling Rate:</strong> 60%<br />
-              <strong>ABV:</strong> 15%
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src="assets/img/slides/genshu_mobile.jpg" alt="" />
-          <div class="mobile-carousel__text">
-            <h4>Tokubetsu</h4>
-            <h1>Honjozo Genshu</h1>
-            <p>An undiluted sake from Akashi-Tai, fuller in body and with a more concentrated flavour. This is the drink the brew-masters reach for at the end of a working day. Full bodied with woody aroma, very rich. Creamy texture, with well balanced flavours with hints of citrus fruits. Long lingering finish.</p>
-            <p>
-              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Gohyakumangoku<br />
-              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Gohyakumangoku<br />
-              <strong>Rice Milling Rate:</strong> 60%<br />
-              <strong>ABV:</strong> 19%
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src="assets/img/slides/junmai_mobile.jpg" alt="" />
-          <div class="mobile-carousel__text">
-            <h4>Tokubetsu</h4>
-            <h1>Junmai</h1>
-            <p>Our Tokubetsu Junmai begins with 100% Yamadanishiki rice grown in Hyogo Prefecture which is polished until only 60% of the grain is left. This sake is lovingly handcrafted in every step of the process, from making Koji Rice to hand bottling.</p>
-            <p>Akashi-Tai Tokubetsu Junmai is a traditional brew with a satisfyingly full bodied flavour profile, clean and well structured.</p>
-            <p>
-              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
-              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
-              <strong>Rice Milling Rate:</strong> 60%<br />
-              <strong>ABV:</strong> 15%
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src="assets/img/slides/daiginjo_mobile.jpg" alt="" />
-          <div class="mobile-carousel__text">
-            <h1>Daiginjo Genshu</h1>
-            <p>Our Daiginjo Genshu is a luxuriously aromatic, medium-bodied sake made only in the mid-late winter months from the highest grade Yamadanishiki rice. This sake is perfect for both connoisseurs and those who are just starting to discover.</p>
-            <p>A brew master watches over the koji for 72 hours — without sleeping — to ensure the absolute finest of sakes. A fruity fragrance can be detected amid the full-bodied flavour. Elegant aromas of honey, lily and pear. Delicate flavours of white flowers with a subtle hint of anise. Lemony dry finish.</p>
-            <p>
-              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
-              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
-              <strong>Rice Milling Rate:</strong> 38%<br />
-              <strong>ABV:</strong> 17%
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src="assets/img/slides/junmai-daiginjo_mobile.jpg" alt="" />
-          <div class="mobile-carousel__text">
-            <h1>Junmai Daiginjo Genshu</h1>
-            <p>Made using highly prized Yamadanishiki rice grown in a district of Hyogo. This fine rice is polished until only 38% of the  grain remains, after which two full months are devoted to nurturing our Junmai Daiginjo Genshu sake to completion. Well pronounced nose with melon, lemon, bitter orange, green grass and sage. Very nice balance of minerals, lemon and bitter orange flavours to give a long lasting finish without ever overpowering. A sake you can keep drinking throughout a meal or a long evening with friends.</p>
-            <p>
-              <strong>Koji rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
-              <strong>Mash rice varietal:</strong><br />100% Hyogo produced Yamadanishiki<br />
-              <strong>Rice Milling Rate:</strong> 38%<br />
-              <strong>ABV:</strong> 16%
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src="assets/img/slides/shiraume_mobile.jpg" alt="" />
-          <div class="mobile-carousel__text">
-            <h1>Shiraume Ginjo Umeshu</h1>
-            <p>A luxurious plum liqueur made by preserving plums in the finest Ginjo sake, made from Yamadanishiki rice. After being marinated for 6 months the fruits are removed from the tank then Shiraume Ginjo Umeshu is left to age for further 2 and a half years. Great as a base for cocktails.</p>
-            <p><strong>Nose:</strong><br />Dry fruit, date, cherry and plum.<br />
-            <strong>Palate:</strong><br />Sweet with rich prune, almond flavours.<br />
-            <strong>Finish:</strong><br />Refreshing dry finish.<br />
-            <strong>ABV:</strong> 14%
-            </p>
-          </div>
-        </div>
-      </div>
-      <main id="home" class="main">
-        <section class="section p-landing">
-            <div class="c-logo--wrapper">
-              <h2 class="text-primary intro" style="margin-bottom: 18em; font-size: 14px;">THE HOME OF</h2>
-              <h1 class="c-logo">AKASHI-TAI ARTISAN JAPANESE SAKE</h1>
-            </div>
-        </section>
-        <section id="range" class="section p-range">
-            <header class="section-header">
-              <h2>AKASHI-TAI ARTISAN JAPANESE SAKE</h2>
-              <hr>
-              <h3 class="text-primary">OUR SIGNATURE RANGE</h3>
+        <link href="assets/scss/overlay.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="assets/bower_components/magnific-popup/dist/magnific-popup.css" media="all" rel="stylesheet" type="text/css"/>
+    </head>
+    <body id="akashi-eng">
+        <div id="page">
+            <header class="main-header">
+                <div class="menu__toggle" id="menuTrigger">
+                    <span>Menu</span>
+                </div>
+                <div class="menu">
+                    <div class="menu__navigation">
+                        <div class="main-navigation">
+                            <ul>
+                                <li>
+                                    <a class="menu__link" href="#home">HOME</a>
+                                </li>
+                                <li>AKASHI-TAI SAKE
+                                    <ul>
+                                        <li>
+                                            <a class="menu__link" href="#range">EXPLORE THE RANGE</a>
+                                        </li>
+                                        <li>
+                                            <a class="menu__link" href="#soul">FINDING THE SOUL OF THE SAKE</a>
+                                        </li>
+                                        <li>
+                                            <a class="menu__link" href="#toji">A WORD FROM OUR TOJI</a>
+                                        </li>
+                                        <li>
+                                            <a class="menu__link" href="#tai">WHY A FISH?</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>AKASHI SAKE BREWERY
+                                    <ul>
+                                        <li>
+                                            <a class="menu__link" href="#innovations">TODAYS INNOVATIONS</a>
+                                        </li>
+                                        <li>
+                                            <a class="menu__link" href="#knowledge">KNOW RICE</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="menu__link" href="#contact">CONTACT</a>
+                                </li>
+                                <hr style="margin-bottom: 0; border-top: white 1px solid;"/>
+                                <li style="margin-bottom: 1em">
+                                    <a class="menu__link" href="http://akashi-tai.com/">日本語 - JAPANESE SITE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu__footer">
+                        <p>Japan<br/>673-0871 Hyogo Prefecture<br/>Akashi<br/>Okurahachimancho</p>
+                    </div>
+                </div>
+                <!--/.menu -->
+                <div class="main-header__bar">
+                    <div class="main-header__logo">
+                        <a class="menu__link" href="#home">
+                            <img src="assets/svg/logo.svg" alt="Akashi Sake"/>
+                        </a>
+                    </div>
+                </div>
             </header>
-            <img src="assets/img/p-range_mobile.jpg" alt="" width="1920" height="1440"/>
- 
-            <footer class="section-footer">
-              <a href="#" id="carouselTrigger" class="btn">Explore the collection</a>
-            </footer>
-        </section>
-        <section class="section--text">
-          <header class="section-header">
-            <h2>The Pride of Akashi Sake Brewery</h2>
-            <hr>
-          </header>
-          <div class="section-body">
-            <p>Akashi-Tai is the best expression of everything we believe in. A true artisan sake, handmade in small batches by our Toji (master brewer) Kimio Yonezawa and his close team of trusted craftsmen. We brew using traditional methods, and only with the highest quality, locally produced ingredients. Most notably the rice and the water, both of which Hyogo is renowned for throughout Japan and the wider sake world.</p>
-            <p>It is the embodiment of Akashi Sake Brewery’s spirit, and a prime example of characterful sake from Hyogo – the birthplace of sake.</p>
-          </div>
-        </section>
-
-        <!-- second artboard -->
-
-        <picture id="soul"  class="responsive-image">
-            <source media="(min-width: 768px)" srcset="assets/img/1.jpg">
-            <source media="(max-width: 767px)" srcset="assets/img/1_mobile.jpg">
-            <img src="assets/img/1.jpg" alt="Rice is key">
-        </picture>
-
-
-        <section class="section--text">
-          <header class="section-header">
-            <h2>Finding The Soul Of The Sake</h2>
-            <hr>
-          </header>
-          <div class="section-body">
-            <p>It may sound obvious, but rice is what makes the sake. And respect for the rice is what gives the sake character. You need to treat the rice with integrity, use the right water, know which variety to use at each stage of the process, proceed at as slow a pace as much precision as those processes demand, and most of all not cut corners where others might say you can get away with it.</p>
-            <p>For example, in our Daiginjos we use 100% Hyogo produced Yamadanishiki both for koji-making and for mashing, not just where we think you’ll notice it most.</p>
-            <p>Because the quest for perfection is all about incremental gains.</p>
-          </div>
-        </section>
-
-        <!-- third artboard -->
-
-        <picture id="toji"  class="responsive-image">
-            <source media="(min-width: 768px)" srcset="assets/img/2.jpg">
-            <source media="(max-width: 767px)" srcset="assets/img/2_mobile.jpg">
-            <img src="assets/img/2.jpg" alt="Toji">
-        </picture>
-
-
-        <section class="section--text">
-          <header class="section-header">
-            <h2>A Word from our Toji</h2>
-            <hr>
-          </header>
-          <div class="section-body">
-            <p>“My mission is to make sake with character. Joyfully exuberant, generous and
-          open-hearted sake. Sake with depth, with flavour and aroma that lingers. Enough to silence the table as that flavour keeps developing. Sake that can reveal the character of Hyogo’s water, rice and yeasts, among the finest in  Japan, and really let them shine. Sake that makes every gathering a celebration of the simple joy of a shared meal. Sake that will pair up with your favourite food and dance.</p>
-          <p>Because I live for that magical moment when food and sake become one, and both are amplified. The food reveals hidden depths in the sake, and the sake lingers and prolongs the pleasure of the meal.”</p>
-          </div>
-        </section>
-
-        <!-- fourth artboard -->
-
-        <picture id="tai"  class="responsive-image">
-            <source media="(min-width: 768px)" srcset="assets/img/3.jpg">
-            <source media="(max-width: 767px)" srcset="assets/img/3_mobile.jpg">
-            <img src="assets/img/3.jpg" alt="Toji">
-        </picture>
-
-
-        <section class="section--text">
-          <header class="section-header">
-            <h2>Why a fish?</h2>
-            <hr>
-          </header>
-          <div class="section-body">
-            <p>Our Brewery has been in Akashi on the shore of Osaka Bay since we started over 150 years ago. The straits of Akashi are famous for the fierce currents and  whirlpools that form as the tides rip through, which  makes life difficult for the fish that live here. But that difficulty rewards the hardy, and makes the fish strong. The best Sea Bream is the one that strives the most  and fights the hardest.</p>
-            <p>We admire the strength and resilience of this noble fish, which is why we chose it as the symbol of our flagship sake. It represents all the qualities we admire, the qualities we seek to express, the qualities we aspire to:</p>
-          </div>
-          <div class="section-columns">
-            <div>
-              <header class="section-header">
-                <h2>Strength</h2>
-                <hr class="fish-hr">
-              </header>
-              <p>In body and character.</p>
+            <div class="carousel">
+                <div style="background-image: url('assets/img/slides/honjozo.jpg')"></div>
+                <div style="background-image: url('assets/img/slides/genshu.jpg')"></div>
+                <div style="background-image: url('assets/img/slides/junmai.jpg')"></div>
+                <div style="background-image: url('assets/img/slides/daiginjo.jpg')"></div>
+                <div style="background-image: url('assets/img/slides/junmai-daiginjo.jpg')"></div>
+                <div style="background-image: url('assets/img/slides/shiraume.jpg')"></div>
             </div>
-            <div>
-              <header class="section-header">
-                <h2>Drive &amp; Curiosity</h2>
-                <hr class="fish-hr">
-              </header>
-              <p>Keep swimming into the current,  because you never know what you might find.</p>
+
+            <div class="mobile-carousel" id="mobileCarousel">
+                <div>
+                    <img src="assets/img/slides/honjozo_mobile.jpg" alt=""/>
+                    <div class="mobile-carousel__text">
+                        <h4>Tokubetsu</h4>
+                        <h1>Honjozo</h1>
+                        <p>Our Tokubetsu Honjozo is a traditional sake, made using high quality rice that has been lightly milled to remove 40% of the outer (bran) layer of the rice. Lighter in style than other sakes, this has a crisp, dry and easy to drink style. A discrete nose with lime, lemon and straw. The palate is dry with hints of citrus flavours. A smooth and well balanced sake.</p>
+                        <p>
+                            <strong>Koji rice varietal:</strong><br/>100% Hyogo produced Gohyakumangoku<br/>
+                            <strong>Mash rice varietal:</strong><br/>100% Hyogo produced Gohyakumangoku<br/>
+                            <strong>Rice Milling Rate:</strong>
+                            60%<br/>
+                            <strong>ABV:</strong>
+                            15%
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/slides/genshu_mobile.jpg" alt=""/>
+                    <div class="mobile-carousel__text">
+                        <h4>Tokubetsu</h4>
+                        <h1>Honjozo Genshu</h1>
+                        <p>An undiluted sake from Akashi-Tai, fuller in body and with a more concentrated flavour. This is the drink the brew-masters reach for at the end of a working day. Full bodied with woody aroma, very rich. Creamy texture, with well balanced flavours with hints of citrus fruits. Long lingering finish.</p>
+                        <p>
+                            <strong>Koji rice varietal:</strong><br/>100% Hyogo produced Gohyakumangoku<br/>
+                            <strong>Mash rice varietal:</strong><br/>100% Hyogo produced Gohyakumangoku<br/>
+                            <strong>Rice Milling Rate:</strong>
+                            60%<br/>
+                            <strong>ABV:</strong>
+                            19%
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/slides/junmai_mobile.jpg" alt=""/>
+                    <div class="mobile-carousel__text">
+                        <h4>Tokubetsu</h4>
+                        <h1>Junmai</h1>
+                        <p>Our Tokubetsu Junmai begins with 100% Yamadanishiki rice grown in Hyogo Prefecture which is polished until only 60% of the grain is left. This sake is lovingly handcrafted in every step of the process, from making Koji Rice to hand bottling.</p>
+                        <p>Akashi-Tai Tokubetsu Junmai is a traditional brew with a satisfyingly full bodied flavour profile, clean and well structured.</p>
+                        <p>
+                            <strong>Koji rice varietal:</strong><br/>100% Hyogo produced Yamadanishiki<br/>
+                            <strong>Mash rice varietal:</strong><br/>100% Hyogo produced Yamadanishiki<br/>
+                            <strong>Rice Milling Rate:</strong>
+                            60%<br/>
+                            <strong>ABV:</strong>
+                            15%
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/slides/daiginjo_mobile.jpg" alt=""/>
+                    <div class="mobile-carousel__text">
+                        <h1>Daiginjo Genshu</h1>
+                        <p>Our Daiginjo Genshu is a luxuriously aromatic, medium-bodied sake made only in the mid-late winter months from the highest grade Yamadanishiki rice. This sake is perfect for both connoisseurs and those who are just starting to discover.</p>
+                        <p>A brew master watches over the koji for 72 hours — without sleeping — to ensure the absolute finest of sakes. A fruity fragrance can be detected amid the full-bodied flavour. Elegant aromas of honey, lily and pear. Delicate flavours of white flowers with a subtle hint of anise. Lemony dry finish.</p>
+                        <p>
+                            <strong>Koji rice varietal:</strong><br/>100% Hyogo produced Yamadanishiki<br/>
+                            <strong>Mash rice varietal:</strong><br/>100% Hyogo produced Yamadanishiki<br/>
+                            <strong>Rice Milling Rate:</strong>
+                            38%<br/>
+                            <strong>ABV:</strong>
+                            17%
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/slides/junmai-daiginjo_mobile.jpg" alt=""/>
+                    <div class="mobile-carousel__text">
+                        <h1>Junmai Daiginjo Genshu</h1>
+                        <p>Made using highly prized Yamadanishiki rice grown in a district of Hyogo. This fine rice is polished until only 38% of the grain remains, after which two full months are devoted to nurturing our Junmai Daiginjo Genshu sake to completion. Well pronounced nose with melon, lemon, bitter orange, green grass and sage. Very nice balance of minerals, lemon and bitter orange flavours to give a long lasting finish without ever overpowering. A sake you can keep drinking throughout a meal or a long evening with friends.</p>
+                        <p>
+                            <strong>Koji rice varietal:</strong><br/>100% Hyogo produced Yamadanishiki<br/>
+                            <strong>Mash rice varietal:</strong><br/>100% Hyogo produced Yamadanishiki<br/>
+                            <strong>Rice Milling Rate:</strong>
+                            38%<br/>
+                            <strong>ABV:</strong>
+                            16%
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/slides/shiraume_mobile.jpg" alt=""/>
+                    <div class="mobile-carousel__text">
+                        <h1>Shiraume Ginjo Umeshu</h1>
+                        <p>A luxurious plum liqueur made by preserving plums in the finest Ginjo sake, made from Yamadanishiki rice. After being marinated for 6 months the fruits are removed from the tank then Shiraume Ginjo Umeshu is left to age for further 2 and a half years. Great as a base for cocktails.</p>
+                        <p>
+                            <strong>Nose:</strong><br/>Dry fruit, date, cherry and plum.<br/>
+                            <strong>Palate:</strong><br/>Sweet with rich prune, almond flavours.<br/>
+                            <strong>Finish:</strong><br/>Refreshing dry finish.<br/>
+                            <strong>ABV:</strong>
+                            14%
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div>
-              <header class="section-header">
-                <h2>Resilience &amp; Tenacity</h2>
-                <hr class="fish-hr">
-              </header>
-              <p>Never give up.</p>
-            </div>
-          </div>
-        </section>
+            <main id="home" class="main">
+                <section class="section p-landing">
+                    <div class="c-logo--wrapper">
+                        <h2 class="text-primary intro" style="margin-bottom: 18em; font-size: 14px;">THE HOME OF</h2>
+                        <h1 class="c-logo">AKASHI-TAI ARTISAN JAPANESE SAKE</h1>
+                    </div>
+                </section>
+                <section id="range" class="section p-range">
+                    <header class="section-header">
+                        <h2>AKASHI-TAI ARTISAN JAPANESE SAKE</h2>
+                        <hr>
+                        <h3 class="text-primary">OUR SIGNATURE RANGE</h3>
+                    </header>
+                    <img src="assets/img/p-range_mobile.jpg" alt="" width="1920" height="1440"/>
 
-        <!-- fifth artboard -->
+                    <footer class="section-footer">
+                        <a href="#" id="carouselTrigger" class="btn">Explore the collection</a>
+                    </footer>
+                </section>
+                <section class="section--text">
+                    <header class="section-header">
+                        <h2>The Pride of Akashi Sake Brewery</h2>
+                        <hr>
+                    </header>
+                    <div class="section-body">
+                        <p>Akashi-Tai is the best expression of everything we believe in. A true artisan sake, handmade in small batches by our Toji (master brewer) Kimio Yonezawa and his close team of trusted craftsmen. We brew using traditional methods, and only with the highest quality, locally produced ingredients. Most notably the rice and the water, both of which Hyogo is renowned for throughout Japan and the wider sake world.</p>
+                        <p>It is the embodiment of Akashi Sake Brewery’s spirit, and a prime example of characterful sake from Hyogo – the birthplace of sake.</p>
+                    </div>
+                </section>
 
-        <picture id="innovations"  class="responsive-image">
-            <source media="(min-width: 768px)" srcset="assets/img/4.jpg">
-            <source media="(max-width: 767px)" srcset="assets/img/4_mobile.jpg">
-            <img src="assets/img/4.jpg" alt="Toji">
-        </picture>
-            
-        </section>
+                <!-- second artboard -->
 
-        <section class="section--text">
-          <header class="section-header">
-            <h2>today’s innovations are tomorrow’s traditions</h2>
-            <hr>
-          </header>
-          <div class="section-body">
-            <p>We brew using traditional equipment and methods, always by hand and in small batches, the way it has been for centuries. However traditional doesn’t mean closed-minded, conservative or non-progressive.</p>
-            <p>The way to truly respect tradition is to keep it alive, and to do that you sometimes need to be willing to question and challenge. This requires an insatiable curiosity, youth of mind, and the strength of character to follow your own path, but with a profound understanding of and respect for the centuries of tradition and craft that have led to where we are now.</p>
-          </div>
-        </section>
+                <picture id="soul" class="responsive-image">
+                    <source media="(min-width: 768px)" srcset="assets/img/1.jpg">
+                    <source media="(max-width: 767px)" srcset="assets/img/1_mobile.jpg">
+                    <img src="assets/img/1.jpg" alt="Rice is key">
+                </picture>
 
-        <picture class="responsive-image">
-            <source media="(min-width: 768px)" srcset="assets/img/5.jpg">
-            <source media="(max-width: 767px)" srcset="assets/img/5_mobile.jpg">
-            <img class=" p-tank" src="assets/img/5.jpg" alt="Toji">
-        </picture>
+                <section class="section--text">
+                    <header class="section-header">
+                        <h2>Finding The Soul Of The Sake</h2>
+                        <hr>
+                    </header>
+                    <div class="section-body">
+                        <p>It may sound obvious, but rice is what makes the sake. And respect for the rice is what gives the sake character. You need to treat the rice with integrity, use the right water, know which variety to use at each stage of the process, proceed at as slow a pace as much precision as those processes demand, and most of all not cut corners where others might say you can get away with it.</p>
+                        <p>For example, in our Daiginjos we use 100% Hyogo produced Yamadanishiki both for koji-making and for mashing, not just where we think you’ll notice it most.</p>
+                        <p>Because the quest for perfection is all about incremental gains.</p>
+                    </div>
+                </section>
 
-        <!-- sixth artboard -->
+                <!-- third artboard -->
 
-        <picture id="knowledge"  class="responsive-image">
-            <source media="(min-width: 768px)" srcset="assets/img/6.jpg">
-            <source media="(max-width: 767px)" srcset="assets/img/6_mobile.jpg">
-            <img src="assets/img/6.jpg" alt="Toji">
-        </picture>
+                <picture id="toji" class="responsive-image">
+                    <source media="(min-width: 768px)" srcset="assets/img/2.jpg">
+                    <source media="(max-width: 767px)" srcset="assets/img/2_mobile.jpg">
+                    <img src="assets/img/2.jpg" alt="Toji">
+                </picture>
 
-        <section class="section--text">
-          <header class="section-header">
-            <h2>Know rice</h2>
-            <hr>
-          </header>
-          <div class="section-body">
-            <p>The fertile land around Akashi is ideal for rice-growing, and plenty of clean fresh springs supply the region with the purest water. These conditions mean it has become as famous for sake as it is for seafood. We aim to reveal and celebrate the diversity of taste that the different rice varieties can offer, not to drive for the homogenous erosion of taste and character.</p>
-            <p>To achieve this goal, to find the true soul of the rice, you sometimes need to go to greater lengths and respect even elaborate details. For example, at ASB we brew using the same water that’s used to cultivate the Yamadanishiki in the first place.</p>
-            <p>Some would say that won’t make any difference, we think that circles should be closed.</p>
-          </div>
-        </section>
+                <section class="section--text">
+                    <header class="section-header">
+                        <h2>A Word from our Toji</h2>
+                        <hr>
+                    </header>
+                    <div class="section-body">
+                        <p>“My mission is to make sake with character. Joyfully exuberant, generous and open-hearted sake. Sake with depth, with flavour and aroma that lingers. Enough to silence the table as that flavour keeps developing. Sake that can reveal the character of Hyogo’s water, rice and yeasts, among the finest in Japan, and really let them shine. Sake that makes every gathering a celebration of the simple joy of a shared meal. Sake that will pair up with your favourite food and dance.</p>
+                        <p>Because I live for that magical moment when food and sake become one, and both are amplified. The food reveals hidden depths in the sake, and the sake lingers and prolongs the pleasure of the meal.”</p>
+                    </div>
+                </section>
 
+                <!-- fourth artboard -->
 
-        <section class="section--text" id="contact">
-          <header class="section-header">
-            <h2>Contact</h2>
-            <hr>
-          </header>
-          <div class="section-body">
-              <p><strong>Akashi Sake Brewery Co. Ltd</strong><br />
-              Office:<br />
-              1-3, Okurahachiman-cho,<br />
-              Akashi-city, Hyogo<br />
-              673-0871, JAPAN</p>
-               
-              <p>Phone +81-78-919-0277<br />
-              Fax +81-78-919-4377<br />
-              Mail <a href="mailto:e-info@akashi-tai.com">e-info@akashi-tai.com</a></p>
+                <picture id="tai" class="responsive-image">
+                    <source media="(min-width: 768px)" srcset="assets/img/3.jpg">
+                    <source media="(max-width: 767px)" srcset="assets/img/3_mobile.jpg">
+                    <img src="assets/img/3.jpg" alt="Toji">
+                </picture>
 
-              <div class="section-header outside-japan"><h2>Outside Japan</h2></div>
-              
-              <p class="font-secondary"><strong>Regional distributers</strong></p>
-              
-              <p class="font-secondary"><a class="popup-modal region-link" href="#uk-popup">U.K.</a></p>
-              <p class="font-secondary"><a class="popup-modal region-link" href="#us-popup">U.S.</a></p>
-              <p class="font-secondary"><a class="popup-modal region-link" href="#france-popup">France</a></p>
-              <p class="font-secondary"><a class="popup-modal region-link" href="#rest-popup">Rest of World</a></p>
+                <section class="section--text">
+                    <header class="section-header">
+                        <h2>Why a fish?</h2>
+                        <hr>
+                    </header>
+                    <div class="section-body">
+                        <p>Our Brewery has been in Akashi on the shore of Osaka Bay since we started over 150 years ago. The straits of Akashi are famous for the fierce currents and whirlpools that form as the tides rip through, which makes life difficult for the fish that live here. But that difficulty rewards the hardy, and makes the fish strong. The best Sea Bream is the one that strives the most and fights the hardest.</p>
+                        <p>We admire the strength and resilience of this noble fish, which is why we chose it as the symbol of our flagship sake. It represents all the qualities we admire, the qualities we seek to express, the qualities we aspire to:</p>
+                    </div>
+                    <div class="section-columns">
+                        <div>
+                            <header class="section-header">
+                                <h2>Strength</h2>
+                                <hr class="fish-hr">
+                            </header>
+                            <p>In body and character.</p>
+                        </div>
+                        <div>
+                            <header class="section-header">
+                                <h2>Drive &amp; Curiosity</h2>
+                                <hr class="fish-hr">
+                            </header>
+                            <p>Keep swimming into the current, because you never know what you might find.</p>
+                        </div>
+                        <div>
+                            <header class="section-header">
+                                <h2>Resilience &amp; Tenacity</h2>
+                                <hr class="fish-hr">
+                            </header>
+                            <p>Never give up.</p>
+                        </div>
+                    </div>
+                </section>
 
-              <ul class="social-links">
-                <li class="social-links__item  social-links__item--twitter"><a href="#">Twitter</a></li>
-                <li class="social-links__item  social-links__item--facebook"><a href="#">Facebook</a></li>
-              </ul>
+                <!-- fifth artboard -->
 
+                <picture id="innovations" class="responsive-image">
+                    <source media="(min-width: 768px)" srcset="assets/img/4.jpg">
+                    <source media="(max-width: 767px)" srcset="assets/img/4_mobile.jpg">
+                    <img src="assets/img/4.jpg" alt="Toji">
+                </picture>
 
-          </div>
-        </section>
+            </section>
 
+            <section class="section--text">
+                <header class="section-header">
+                    <h2>today’s innovations are tomorrow’s traditions</h2>
+                    <hr>
+                </header>
+                <div class="section-body">
+                    <p>We brew using traditional equipment and methods, always by hand and in small batches, the way it has been for centuries. However traditional doesn’t mean closed-minded, conservative or non-progressive.</p>
+                    <p>The way to truly respect tradition is to keep it alive, and to do that you sometimes need to be willing to question and challenge. This requires an insatiable curiosity, youth of mind, and the strength of character to follow your own path, but with a profound understanding of and respect for the centuries of tradition and craft that have led to where we are now.</p>
+                </div>
+            </section>
 
-      </main>
+            <picture class="responsive-image">
+                <source media="(min-width: 768px)" srcset="assets/img/5.jpg">
+                <source media="(max-width: 767px)" srcset="assets/img/5_mobile.jpg">
+                <img class=" p-tank" src="assets/img/5.jpg" alt="Toji">
+            </picture>
+
+            <!-- sixth artboard -->
+
+            <picture id="knowledge" class="responsive-image">
+                <source media="(min-width: 768px)" srcset="assets/img/6.jpg">
+                <source media="(max-width: 767px)" srcset="assets/img/6_mobile.jpg">
+                <img src="assets/img/6.jpg" alt="Toji">
+            </picture>
+
+            <section class="section--text">
+                <header class="section-header">
+                    <h2>Know rice</h2>
+                    <hr>
+                </header>
+                <div class="section-body">
+                    <p>The fertile land around Akashi is ideal for rice-growing, and plenty of clean fresh springs supply the region with the purest water. These conditions mean it has become as famous for sake as it is for seafood. We aim to reveal and celebrate the diversity of taste that the different rice varieties can offer, not to drive for the homogenous erosion of taste and character.</p>
+                    <p>To achieve this goal, to find the true soul of the rice, you sometimes need to go to greater lengths and respect even elaborate details. For example, at ASB we brew using the same water that’s used to cultivate the Yamadanishiki in the first place.</p>
+                    <p>Some would say that won’t make any difference, we think that circles should be closed.</p>
+                </div>
+            </section>
+
+            <section class="section--text" id="contact">
+                <header class="section-header">
+                    <h2>Contact</h2>
+                    <hr>
+                </header>
+                <div class="section-body">
+                    <p>
+                        <strong>Akashi Sake Brewery Co. Ltd</strong><br/>
+                        Office:<br/>
+                        1-3, Okurahachiman-cho,<br/>
+                        Akashi-city, Hyogo<br/>
+                        673-0871, JAPAN</p>
+
+                    <p>Phone +81-78-919-0277<br/>
+                        Fax +81-78-919-4377<br/>
+                        Mail
+                        <a href="mailto:e-info@akashi-tai.com">e-info@akashi-tai.com</a>
+                    </p>
+
+                    <div class="section-header outside-japan">
+                        <h2>Outside Japan</h2>
+                    </div>
+
+                    <p class="font-secondary">
+                        <strong>Regional distributers</strong>
+                    </p>
+
+                    <p class="font-secondary">
+                        <a class="popup-modal region-link" href="#uk-popup">U.K.</a>
+                    </p>
+                    <p class="font-secondary">
+                        <a class="popup-modal region-link" href="#us-popup">U.S.</a>
+                    </p>
+                    <p class="font-secondary">
+                        <a class="popup-modal region-link" href="#france-popup">France</a>
+                    </p>
+                    <p class="font-secondary">
+                        <a class="popup-modal region-link" href="#rest-popup">Rest of World</a>
+                    </p>
+
+                    <ul class="social-links">
+                        <li class="social-links__item  social-links__item--twitter">
+                            <a href="#">Twitter</a>
+                        </li>
+                        <li class="social-links__item  social-links__item--facebook">
+                            <a href="#">Facebook</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+
+        </main>
     </div>
     <div id="uk-popup" class="white-popup-block mfp-hide">
-      <h1>U.K.</h1>
-<p><strong>Marussia Beverages UK</strong></p>
-<p>223 Old Marylebone Rd, Marylebone, London NW1 5QT</p>
-<p>+44 (0) 20 7724 5009</p>
-<p><a href="mailto:info@mbev.com">info@mbev.com</a></p>
-      <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+        <h1>U.K.</h1>
+        <p>
+            <strong>Marussia Beverages UK</strong>
+        </p>
+        <p>223 Old Marylebone Rd, Marylebone, London NW1 5QT</p>
+        <p>+44 (0) 20 7724 5009</p>
+        <p>
+            <a href="mailto:info@mbev.com">info@mbev.com</a>
+        </p>
+        <p>
+            <a class="popup-modal-dismiss" href="#">Dismiss</a>
+        </p>
     </div>
 
     <div id="us-popup" class="white-popup-block mfp-hide">
-      <h1>US</h1>
-<p><strong>Niche Import Co</strong></p>
-<p>45 Horsehill Rd, Suite 106A</p>
-<p>Cedar Knolls, NJ07927</p>
-<p>+1 973 993 8450</p>
-<p><a href="mailto:info@ourniche.com">info@ourniche.com</a></p>
-      <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+        <h1>US</h1>
+        <p>
+            <strong>Niche Import Co</strong>
+        </p>
+        <p>45 Horsehill Rd, Suite 106A</p>
+        <p>Cedar Knolls, NJ07927</p>
+        <p>+1 973 993 8450</p>
+        <p>
+            <a href="mailto:info@ourniche.com">info@ourniche.com</a>
+        </p>
+        <p>
+            <a class="popup-modal-dismiss" href="#">Dismiss</a>
+        </p>
 
     </div>
     <div id="france-popup" class="white-popup-block mfp-hide">
-      <h1>France</h1>
-      <p><strong>Marussia France Sarl</strong></p>
-      <p>216 Boulevard Saint Germain</p>
-      <p>75007 Paris</p>
-      <p><a href="mailto:france@mbev.com">france@mbev.com</a></p>
-      <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+        <h1>France</h1>
+        <p>
+            <strong>Marussia France Sarl</strong>
+        </p>
+        <p>216 Boulevard Saint Germain</p>
+        <p>75007 Paris</p>
+        <p>
+            <a href="mailto:france@mbev.com">france@mbev.com</a>
+        </p>
+        <p>
+            <a class="popup-modal-dismiss" href="#">Dismiss</a>
+        </p>
     </div>
     <div id="rest-popup" class="white-popup-block mfp-hide">
-      <h1>Rest Of World</h1>
-      <p><strong>Please contact Robert Hastings:</strong></p>
-      <p>+44 (0) 20 7724 5009</p>
-      <p><a href="mailto:RobertHastings@mbev.com">RobertHastings@mbev.com</a></p>
-      <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+        <h1>Rest Of World</h1>
+        <p>
+            <strong>Please contact Robert Hastings:</strong>
+        </p>
+        <p>+44 (0) 20 7724 5009</p>
+        <p>
+            <a href="mailto:RobertHastings@mbev.com">RobertHastings@mbev.com</a>
+        </p>
+        <p>
+            <a class="popup-modal-dismiss" href="#">Dismiss</a>
+        </p>
     </div>
-  </body>
-  <script src="assets/js/scripts-min.js"></script>
+</body>
+<script src="assets/js/scripts-min.js"></script>
+
+<script src="assets/js/overlay-min.js"></script>
+
 </html>
