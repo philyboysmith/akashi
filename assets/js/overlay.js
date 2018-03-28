@@ -9,7 +9,7 @@ window.onload = function() {
         iframe.style.left = "0";
         iframe.style.width = "100%";
         iframe.style.height = "100%";
-        iframe.src = "//phils-mbp.lan:5757/overlay.html";
+        iframe.src = "https://philyboysmith.github.io/akashi/overlay.html";
         document.body.appendChild(iframe);
     }
 };
