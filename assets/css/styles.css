@@ -819,7 +819,7 @@ html {
   top: 20px;
   line-height: 23px;
   text-transform: uppercase;
-  transition: color .35s;
+  transition: color 0.35s;
   z-index: 99999;
   padding-left: 20px; }
   @media screen and (min-width: 48rem) {
@@ -844,7 +844,7 @@ html {
   position: absolute;
   top: 7px;
   transform-origin: center;
-  transition: transform .35s,background-color .35s,.35s;
+  transition: transform 0.35s, background-color 0.35s, 0.35s;
   width: 20px;
   will-change: transform; }
 
@@ -863,7 +863,7 @@ html {
   position: absolute;
   transform-origin: center;
   width: 20px;
-  transition: transform .35s,background .35s;
+  transition: transform 0.35s, background 0.35s;
   will-change: transform; }
 
 .menu__toggle.animate:after {
@@ -876,7 +876,7 @@ html {
  * The Menu
  */
 .menu {
-  background-color: #BF002E;
+  background-color: #bf002e;
   box-sizing: border-box;
   color: #fff;
   right: 0;
@@ -887,9 +887,9 @@ html {
   top: 0;
   bottom: 0;
   transform: translate3d(100%, 0, 0);
-  transition: transform .5s ease-out,opacity .5s,visibility .5s;
+  transition: transform 0.5s ease-out, opacity 0.5s, visibility 0.5s;
   visibility: hidden;
-  will-change: transform,opacity,visibility;
+  will-change: transform, opacity, visibility;
   z-index: 1000;
   font-size: 18px;
   display: flex;
